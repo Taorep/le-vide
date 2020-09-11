@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+  background-color: #000;
+}
+
+div, form { 
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Mongolian Baiti', sans-serif;
+}
+
+
+#everything, #will, #be, #okay {
+  margin: auto;
+}
+
+#everything {
+  margin: 1rem auto 10rem;
+  font-family: 'Rock Salt', sans-serif;
+  letter-spacing: 1rem;
+  font-size: 1rem;
+}
+
+#will {
+  letter-spacing: 5px;
+  font-size: .95rem;
+}
+
+#be {
+  background: url('../src/images/stars.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  border: 3px solid #121212;
+  width: 30%;
+  height: 20vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Mongolian Baiti', sans-serif;
+  color: #fff;
+  text-transform: lowercase;
+  border-radius: 10px;
+}
+
+#okay {
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  margin: 8rem auto 0;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 5px;
+  font-family: 'Mongolian Baiti';
+  text-indent: 5px;
+  transition: border-color 0.5s, color 0.5s;
+}
+
+#okay:hover {
+  cursor: pointer;
+  color: #222;
+  border-color: #222;
+  transition: border-color 0.5s, color 0.5s;
+}
