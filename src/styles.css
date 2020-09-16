@@ -29,13 +29,6 @@ div, form {
   font-size: .95rem;
 }
 
-@media screen and (min-width: 800px) {
-  #be {
-    width: 30%;
-    height: 20vh;
-  }
-}
-
 #be {
   background: url('../src/images/stars.jpg');
   background-attachment: fixed;
@@ -52,6 +45,14 @@ div, form {
   text-transform: lowercase;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 800px) {
+  #be {
+    width: 30%;
+    height: 20vh;
+  }
+}
+
 
 #okay {
   border: 1px solid white;
