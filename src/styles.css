@@ -21,11 +21,19 @@ div, form {
   font-family: 'Rock Salt', sans-serif;
   letter-spacing: 1rem;
   font-size: 1rem;
+  cursor: none;
 }
 
 #will {
   letter-spacing: 5px;
   font-size: .95rem;
+}
+
+@media screen and (min-width: 800px) {
+  #be {
+    width: 30%;
+    height: 20vh;
+  }
 }
 
 #be {
@@ -34,8 +42,8 @@ div, form {
   background-position: center;
   background-size: contain;
   border: 3px solid #121212;
-  width: 30%;
-  height: 20vh;
+  width: 70%;
+  height: 30vh;
   margin: 2rem auto;
   padding: 1rem;
   font-size: 1.3rem;
@@ -64,3 +72,5 @@ div, form {
   border-color: #222;
   transition: border-color 0.5s, color 0.5s;
 }
+
+
